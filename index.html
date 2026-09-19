@@ -47,11 +47,12 @@
       "@type": "Organization",
       "name": "Vercel"
     },
-    "image": "https://steren.fr/img/avatar.webp"
+    "image": "https://steren.fr/img/avatar.jpg"
   }
   </script>
 
-  <!-- Preload Critical Above-The-Fold Avatar -->
+  <!-- Sitemap & Asset Preloading -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
   <link rel="preload" href="img/avatar.jpg" as="image" type="image/jpeg" fetchpriority="high">
 
   <!-- Non-blocking Defer for Squircle Script -->
